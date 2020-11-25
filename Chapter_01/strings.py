@@ -1,0 +1,10 @@
+banner = "FreeFloat FTP Server"
+print(f"Original banner: {banner}")
+print("[+] Printing banner with upper string method")
+print(banner.upper())
+print("[+] Printing banner with lower string method")
+print(banner.lower())
+print("[+] Printing banner with replace string method (replace FreeFloat with Ability)")
+print(banner.replace('FreeFloat', 'Ability'))
+print("[+] Use find string method to find what index of the string a (set of)character(s) starts at")
+print(banner.find('FTP'))
